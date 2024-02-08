@@ -7,7 +7,6 @@
 
 body {
   margin: 10px;
-
 }
 
 .grid-container {
@@ -19,7 +18,6 @@ body {
 }
 
 /*header */
-
 
 .logo-aa-principal {
   padding: 10px;
@@ -39,7 +37,7 @@ body {
 
   background-image: url('../assets/banner-aa-02.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  /*background-size: center;*/
 
   display: grid;
   grid-template-rows: 300px 50px;
@@ -53,7 +51,6 @@ body {
 .menu-color {
   background-color: #ffc857;
   padding: 0.1rem;
-
 }
 
 .menu-color li {
@@ -91,7 +88,6 @@ body {
 .presentacion-texto {
   padding: 10px;
   margin: 10px;
-
 }
 
 /* establece los estilos de las secciones de cards con los imperdibles */
