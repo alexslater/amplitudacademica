@@ -1,0 +1,146 @@
+/* Hoja de estilos para el proyecto */
+
+*{
+   font-family: 'Lato', sans-serif;
+
+}
+
+body {
+  margin: 10px;
+
+}
+
+.grid-container {
+  border: 5px solid black;
+}
+
+.grid-item {
+  border: 2px solid black;
+}
+
+/*header */
+
+
+.logo-aa-principal {
+  padding: 10px;
+}
+
+.cabecera {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.menu-navegacion {
+  /*position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;*/
+
+  background-image: url('../assets/banner-aa-02.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: grid;
+  grid-template-rows: 300px 50px;
+  grid-template-columns: 1fr;
+  /* fijamos la el position sticky y con top 0 para dejar todo el header y navbar
+      fijo en la posición indicada */
+
+
+}
+
+.menu-color {
+  background-color: #ffc857;
+  padding: 0.1rem;
+
+}
+
+.menu-color li {
+  display: inline;
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.menu-color li a {
+  color: black;
+  text-decoration: none;
+}
+
+/*main*/
+.principal {
+  background-color: rgba(189, 217, 223, 0.6);
+}
+
+/* establece estilo de la sección principal de bienvenida */
+
+.principal-presentacion-titulo {
+  font-weight: 600;
+  font-size: xx-large;
+  width: 100%;
+  padding: 10px;
+}
+
+.presentacion-video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.presentacion-texto {
+  padding: 10px;
+  margin: 10px;
+
+}
+
+/* establece los estilos de las secciones de cards con los imperdibles */
+.principal-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.principal-card-titulo {
+  font-weight: 600;
+  width: 100%;
+  padding: 10px;
+}
+
+.articulo-card-nombre-curso {
+  font-size: large;
+}
+
+.articulo-card {
+  width: 400px;
+  height: 600px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 1%;
+  /* display: inline-table; */
+}    
+
+/*footer*/
+.pie-pagina {
+  display: flex;
+  background-color: #ffc857;
+  justify-content: center;
+
+}
+
+.menu-footer
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-texto {
+  margin: 5px;
+  padding: 5px;
+}
+
+.menu-footer-logosn {
+  margin: 5px;
+  padding: 5px;
+}
