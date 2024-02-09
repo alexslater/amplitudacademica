@@ -143,6 +143,12 @@ img {
   justify-self: auto;
 }
 
+.barra-footer-contacto {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
 .footer-texto {
   margin: 5px;
   padding: 5px;
