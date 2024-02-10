@@ -22,6 +22,10 @@ img {
   height: 100%;
 }
 
+
+/* Estos tags los tengo para señalar mientras diseño la grilla */
+
+/*
 .grid-container {
   border: 5px solid black;
 }
@@ -29,6 +33,33 @@ img {
 .grid-item {
   border: 2px solid black;
 }
+*/
+
+.enlace-indice:hover {
+  background-color: black;
+  color: #ffc857;
+}
+
+.enlace-cursos:hover {
+  background-color: black;
+  color: #ffc857;
+}
+
+.enlace-aprendizaje:hover {
+  background-color: black;
+  color: #ffc857;
+}
+
+.enlace-vip:hover {
+  background-color: black;
+  color: #ffc857;
+}
+
+.enlace-certificaciones:hover {
+  background-color: black;
+  color: #ffc857;
+}
+
 
 /* DEFINICIÓN DE LAS MEDIA QUERY */
 
@@ -66,6 +97,7 @@ img {
     /*display: inline;*/
     list-style: none;
     padding: 0.25rem;
+    height: 100%;
   }
 
   .barra-navegacion li a {
@@ -224,6 +256,7 @@ img {
     display: inline;
     list-style: none;
     padding: 0.5rem;
+    height: 60px;
   }
 
   .barra-navegacion li a {
