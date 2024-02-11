@@ -63,10 +63,9 @@ img {
 
 /* DEFINICIÓN DE LAS MEDIA QUERY */
 
-
 /* Tamaño XS para teléfonos modo portrait */ 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   
   .menu-navegacion {
      /*position: sticky;
@@ -81,6 +80,7 @@ img {
      display: grid;
      grid-template-rows: 1fr 180px;
      grid-template-columns: 1fr;
+     justify-content: center;
      width: 100%;
      /* fijamos la el position sticky y con top 0 para dejar todo el header y navbar
        fijo en la posición indicada */
@@ -88,8 +88,14 @@ img {
  
    .logo-aa-principal {
      padding: 0px;
+     width: 50%;
+     height: 100%;
    }
    
+   .logo-grid {
+      justify-content: center;
+      padding: 1.5rem;
+   }
    .barra-navegacion {
      background-color: #ffc857;
      padding: 0.1rem;
@@ -213,7 +219,7 @@ img {
 
 
 /* DEFINICIONES PARA PANTALLAS GENERALES */
-@media only screen and (min-width: 321px)
+@media only screen and (min-width: 768px)
   {
 
   /*header */
@@ -240,11 +246,9 @@ img {
     /*background-size: center;*/
 
     display: grid;
-    grid-template-rows: 100px 200px 60px;
+    grid-template-rows: 100px 200px auto;
     grid-template-columns: 100px 1fr;
-    /* fijamos la el position sticky y con top 0 para dejar todo el header y navbar
-        fijo en la posición indicada */
-  }
+      }
 
   .barra-navegacion {
     background-color: #ffc857;
@@ -257,7 +261,7 @@ img {
     display: inline;
     list-style: none;
     padding: 0.5rem;
-    height: 60px;
+    /*height: 60px;*/
   }
 
   .barra-navegacion li a {
@@ -269,6 +273,12 @@ img {
     padding: 0px;
   }
   
+  .logo-grid {
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+  }
+
   .barra-navegacion {
     background-color: #ffc857;
     padding: 0.1rem;
