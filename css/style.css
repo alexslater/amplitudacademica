@@ -78,7 +78,7 @@ img {
      background-size: center;*/
      
      display: grid;
-     grid-template-rows: 1fr 180px;
+     grid-template-rows: 1fr auto;
      grid-template-columns: 1fr;
      justify-content: center;
      width: 100%;
@@ -98,7 +98,7 @@ img {
    }
    .barra-navegacion {
      background-color: #ffc857;
-     padding: 0.1rem;
+     /*padding: 0.1rem;*/
    }
  
    .barra-navegacion li {
