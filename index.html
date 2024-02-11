@@ -79,23 +79,34 @@
         <!-- Sección 2 que tiene los destacados de la página principal -->
         <section class="container principal-card">
             <h2 class="row principal-card-titulo">Destacados e imperdibles!</h2>
-            <article class="row articulo-card">
-                <h3 class="articulo-card-nombre-curso">Satélite UM-Sat</h3>
-                <img class="" src="./assets/satelite-orbita-planeta-tierra-al-fondo.jpg" alt="destacado">
-                <p>Volando alto!. Los estudiantes del proyecto de nanosatélite UMSat realizaron pruebas de comunicación en el centro de operaciones espaciales de la Fuerza Aérea de Chile. En su visita pudieron aprender además de otros protocolos de comunicaciñon y procesamiento de imágenes recibidas desde el espacio.</p>
-            </article>
-            <article class="row articulo-card">
-                <h3 class="articulo-card-nombre-curso">La inteligencia artificial al servicio de la salud</h3>
-                <img class="" src="./assets/persona-que-usa-herramienta-ai-trabajo.jpg" alt="destacado">
-                <p>Los estudiantes del curso de indagación Inteligencia Artificial Aplicada a la Salud participaron de una conferencia internacional sobre nuevos métodos diagnósticos basados en IA. En ella pudieron conocer sobre los avances más recientes en diagnóstico por imágenes y detección temprana del cáncer.</p>
-            </article>
-            <article class="row articulo-card">
-                <h3 class="articulo-card-nombre-curso">Nuestras raíces</h3>
-                <img class="" src="./assets/agricultura-mujeres-tribales.jpg" alt="destacado">
-                <p>El curso de cultura Raíces de Nuestra Tierra, realizó un encuentro con líderes de comunidades Mapuche en Temuco para conocer más sobre sus tradiciones. Los estudiantes del área de salud pudieron conocer más acerca de la cosmovisión en temas relacionados a salud y los tipos de práctica que se traspasan de generación en generación.</p>
-            </article>
-        </section>
+            <!-- prueba de card usando el codigo de bootstrap-->
+            <div class="card m-2" style="width: 18rem;">
+                <img src="./assets/satelite-orbita-planeta-tierra-al-fondo.jpg" class="card-img-top" alt="destacado">
+                <div class="card-body">
+                  <h5 class="card-title">Satélite UM-Sat</h5>
+                  <p class="card-text">Volando alto!. Los estudiantes del proyecto de nanosatélite UMSat realizaron pruebas de comunicación en el centro de operaciones espaciales de la Fuerza Aérea de Chile. En su visita pudieron aprender además de otros protocolos de comunicaciñon y procesamiento de imágenes recibidas desde el espacio.</p>
+                  <a href="#" class="btn btn-primary">Proyectos-VIP</a>
+                </div>
+            </div>
 
+            <div class="card m-2" style="width: 18rem;">
+                <img src="./assets/persona-que-usa-herramienta-ai-trabajo.jpg" class="card-img-top" alt="destacado">
+                <div class="card-body">
+                  <h5 class="card-title">La inteligencia artificial al servicio de la salud</h5>
+                  <p class="card-text">Los estudiantes del curso de indagación Inteligencia Artificial Aplicada a la Salud participaron de una conferencia internacional sobre nuevos métodos diagnósticos basados en IA. En ella pudieron conocer sobre los avances más recientes en diagnóstico por imágenes y detección temprana del cáncer.</p>
+                  <a href="#" class="btn btn-primary">Aprendizaje en contexto real</a>
+                </div>
+            </div>
+
+            <div class="card m-2" style="width: 18rem;">
+                <img src="./assets/agricultura-mujeres-tribales.jpg" class="card-img-top" alt="destacado">
+                <div class="card-body">
+                  <h5 class="card-title">Nuestras raíces</h5>
+                  <p class="card-text">El curso de cultura Raíces de Nuestra Tierra, realizó un encuentro con líderes de comunidades Mapuche en Temuco para conocer más sobre sus tradiciones. Los estudiantes del área de salud pudieron conocer más acerca de la cosmovisión en temas relacionados a salud y los tipos de práctica que se traspasan de generación en generación.</p>
+                  <a href="#" class="btn btn-primary">Cursos</a>
+                </div>
+            </div>
+        </section>
    
     </main>
     <footer class="container pie-pagina">
