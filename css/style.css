@@ -179,7 +179,11 @@ img {
      padding: 20px;
      border: 1px solid black;
      border-radius: 2%;
-   }    
+   }
+
+   .curso-texto {
+    font-size: small;
+   }
  
    /* DEFINICIÓN DE ESTILOS PARA LA SECCIÓN FOOTER */ 
  
@@ -371,6 +375,10 @@ img {
 
   .imagen-presentacion {
     height: 50%;
+    width: 50%;
+  }
+
+  .img-star-rating {
     width: 50%;
   }
   /* DEFINICIÓN DE ESTILOS PARA LA SECCIÓN FOOTER */ 
