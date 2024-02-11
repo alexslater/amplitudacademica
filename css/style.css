@@ -166,6 +166,7 @@ img {
  
    .articulo-card-nombre-curso {
      font-size: large;
+     font-weight: 800;
    }
  
    .articulo-card {
@@ -203,14 +204,20 @@ img {
      display: grid;
      grid-template-columns: auto auto;
      align-items: center;
+     font-size: small;
    }
  
    .footer-texto {
      margin: 5px;
      padding: 5px;
      font-style: italic;
+     font-size: small;
    }
- 
+
+   .link-correo {
+    color: black;
+    text-decoration: none;
+  }
  }
  
  
@@ -346,7 +353,8 @@ img {
   }
 
   .articulo-card-nombre-curso {
-    font-size: large;
+    font-size: larger;
+    font-weight: 800;
   }
 
   .articulo-card {
@@ -361,6 +369,10 @@ img {
     border-radius: 2%;
   }    
 
+  .imagen-presentacion {
+    height: 50%;
+    weight: 50%;
+  }
   /* DEFINICIÓN DE ESTILOS PARA LA SECCIÓN FOOTER */ 
 
   .pie-pagina {
@@ -377,19 +389,25 @@ img {
     grid-template-columns: repeat(3, 50px);
     grid-template-rows: 50px;
     align-items: start;
-    justify-self: auto;
+    justify-self: center;
   }
 
   .barra-footer-contacto {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
+    font-size: small;
   }
 
   .footer-texto {
     margin: 5px;
     padding: 5px;
     font-style: italic;
+    font-size: small;
   }
 
+  .link-correo {
+    color: black;
+    text-decoration: none;
+  }
 }

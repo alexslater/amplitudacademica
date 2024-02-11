@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-witdh, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Fuentes de google para el proyecto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,9 @@
     
     <header class="container cabecera">
         <section class="container menu-navegacion">    
-            <img class="row logo-aa-principal grid-item" src="../assets/logo-aa-01.png" alt="logo">
+            <div class="row logo-grid">
+                <img class="logo-aa-principal" src="../assets/logo-aa-01.png" alt="logo">
+            </div>
             <nav class="row barra-navegacion grid-item">
                 <ul>
                     <li><a class="enlace-indice" href="../index.html">Inicio</a></li>
@@ -40,10 +42,10 @@
         <!-- Sección 1 que tiene la presentación de la página-->
         <section class="container principal-presentacion">
             <h1 class="row principal-presentacion-titulo">¿Qué es una certificación?</h1>
-            <article class="container presentacion-parrafo">
-                <!-- Párrafo de contenido -->
-                <p class="row">Es un conjunto de cursos organizado en torno a una temática específica. Están integrados en los planes de estudio de pregrado, y su propósito es desarrollar competencias de carácter profesional en áreas disciplinares que complementan la formación académica del estudiantado. Consideran el abordaje de competencias sello de la universidad, fortaleciendo tanto habilidades transversales como profesionales.</p>
-                <img class="row" src="../assets/certificacion-imagen.png" alt="certificacion">
+            <article class="row presentacion-parrafo">
+                    <!-- Párrafo de contenido -->
+                    <p class="col">Es un conjunto de cursos organizado en torno a una temática específica. Están integrados en los planes de estudio de pregrado, y su propósito es desarrollar competencias de carácter profesional en áreas disciplinares que complementan la formación académica del estudiantado. Consideran el abordaje de competencias sello de la universidad, fortaleciendo tanto habilidades transversales como profesionales.</p>
+                    <img class="col imagen-presentacion" src="../assets/certificacion-imagen.png" alt="certificacion">
             </article>
         </section>
         
@@ -64,15 +66,14 @@
     </main>
     <footer class="container pie-pagina">
         <div class="barra-footer-contacto">
-            <p>Contacto:</p>
-            <a href="mailto:contacto@amplitudacademica.cl">contacto@amplitudacademica.cl</a>
+            <a class="link-correo" href="mailto:contacto@amplitudacademica.cl">Contacto: contacto@amplitudacademica.cl</a>
         </div>
         <div class="barra-footer-logos">
             <img class="barra-footer-logosn" src="../assets/whatsapp-logo-transparent.png" alt="whatsapp">
             <img class="barra-footer-logosn" src="../assets/instagram-logo-transparent.png" alt="instagram">
             <img class="barra-footer-logosn" src="../assets/telegram-logo-transparent.png" alt="telegram">
         </div>
-        <div class=""barra-footer-texto>
+        <div class="barra-footer-texto">
             <p class="footer-texto">Hecho por Alex Slater</p>
         </div>
     </footer>
