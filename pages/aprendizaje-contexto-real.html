@@ -7,33 +7,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
+   
+    <!-- Link para CSS del framework Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
     <!-- Vinculo a la hoja de estilos CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <title>Amplitud Académica - Aprendizaje en Contexto Real</title>
 </head>
 <body>
+    <!-- Incluir el script JS de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
     <header class="cabecera">
-        <section class="menu-navegacion grid-container">    
-            <img class="logo-aa-principal grid-item" src="../assets/logo-aa-01.png" alt="logo">
-            <nav class="menu-color grid-item">
+        <section class="container menu-navegacion">    
+            <img class="row logo-aa-principal grid-item" src="../assets/logo-aa-01.png" alt="logo">
+            <nav class="row barra-navegacion grid-item">
                 <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="cursos.html">Cursos</a></li>
-                    <li><a href="aprendizaje-contexto-real.html">Aprendizaje en contexto real</a></li>
-                    <li><a href="proyectos-vip.html">Proyectos VIP</a></li>
-                    <li><a href="certificaciones.html">Certificaciones</a></li>
+                    <li><a class="enlace-indice" href="../index.html">Inicio</a></li>
+                    <li><a class="enlace-cursos" href="cursos.html">Cursos</a></li>
+                    <li><a class="enlace-aprendizaje" href="aprendizaje-contexto-real.html">Aprendizaje en contexto real</a></li>
+                    <li><a class="enlace-vip" href="proyectos-vip.html">Proyectos VIP</a></li>
+                    <li><a class="enlace-certificaciones" href="certificaciones.html">Certificaciones</a></li>
                 </ul>
             </nav>
         </section>
     </header>
-    <main class="principal">
+    <main class="container principal">
         <!-- Sección 1 que tiene la presentación de la página-->
-        <section class="principal-presentacion">
-            <h1 class="principal-presentacion-titulo">¿Qué es el aprendizaje en contexto real?</h1>
-            <article class="presentacion-video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/5cOkG7Mg2k4?si=gYbpi9S7JrYi1Qkx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <section class="container principal-presentacion">
+            <h1 class="row principal-presentacion-titulo">¿Qué es el aprendizaje en contexto real?</h1>
+            <article class=" row presentacion-video">
+                <iframe class="video-responsive" src="https://www.youtube.com/embed/5cOkG7Mg2k4?si=gYbpi9S7JrYi1Qkx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </article>
-            <article class="presentacion-texto">
+            <article class="row presentacion-texto">
                 <!-- Párrafo de contenido -->
                 <p>Nuestros cursos electivos están diseñados para fomentar la exploración interdisciplinaria y promover la interacción entre estudiantes de diversas carreras. Te ofrecen la posibilidad de adentrarte en nuevos campos del conocimiento, desarrollar habilidades y competencias que complementarán tu formación principal, enriqueciendo así tu experiencia universitaria.</p>
                 <p>Aprovecha esta oportunidad única para expandir tus horizontes académicos y personales mientras te sumerges en áreas que van más allá de tu especialización principal. ¡Elige tu propio camino de aprendizaje y enriquece tu viaje universitario con nuestros emocionantes cursos electivos!</p>
@@ -41,21 +48,21 @@
         </section>
         
         <!-- Sección 2 que tiene los destacados-->
-        <section class="principal-card">
-            <h2 class="principal-card-titulo">Cursos de Aprendizaje en Contexto Real</h2>
-            <article class="articulo-card">
+        <section class="container principal-card">
+            <h2 class="row principal-card-titulo">Cursos de Aprendizaje en Contexto Real</h2>
+            <article class="row articulo-card">
                 <h3 class="card-articulo-nombre-curso">Atención al cliente</h3>
                 <img class="" src="../assets/colegas-reunion-negocios.jpg" alt="destacado">
                 <p>Vive la experiencia de atender clientes en una empresa del área de telecomunicaciones y vivencia situaciones que requerien empatizar con los demas para gestionar soluciones a problemas de diversa naturaleza.</p>
                 <img class="" src="../assets/star-rating.png" alt="star rating">
             </article>
-            <article class="articulo-card">
+            <article class="row articulo-card">
                 <h3 class="card-articulo-nombre-curso">Pasantía laboral en la industria minera</h3>
                 <img class="" src="../assets/trabajador-detras-vestido-ropa-trabajo-observando-algunas-excavadoras-sitio-construccion-ai-generativo.jpg" alt="destacado">
                 <p>Este curso tiene como objetivo observar en terreno faenas mineras de alta complejidad, de manera tal que el estudiante pueda observar los principales riesgos asociados a la extracción minera y los mecanismos de seguridad que utilizan para mitigar dichos riesgos.</p>
                 <img class="" src="../assets/star-rating.png" alt="star rating">
             </article>
-            <article class="articulo-card">
+            <article class="row articulo-card">
                 <h3 class="card-articulo-nombre-curso">Distribución de mercadería</h3>
                 <img class="" src="../assets/trabajadores-almacen-contando-cajas-estantes-gran-almacen-distribucion.jpg" alt="destacado">
                 <p>Vive los roles de gerente y transportista, para conocer ambas caras de la moneda en procesos logísticos de distribución de mercadería para una cadena de supermercados.</p>
