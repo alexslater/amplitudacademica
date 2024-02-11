@@ -63,152 +63,153 @@ img {
 
 /* DEFINICIÓN DE LAS MEDIA QUERY */
 
+
 /* Tamaño XS para teléfonos modo portrait */ 
+
 @media screen and (max-width: 320px) {
   
- .menu-navegacion {
-    /*position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1;*/
-   
-    /*background-image: url('../assets/banner-aa-02.png');
-    background-repeat: no-repeat;
-    background-size: center;*/
+  .menu-navegacion {
+     /*position: sticky;
+     top: 0;
+     width: 100%;
+     z-index: 1;*/
     
-    display: grid;
-    grid-template-rows: 1fr 180px;
-    grid-template-columns: 1fr;
-    width: 100%;
-    /* fijamos la el position sticky y con top 0 para dejar todo el header y navbar
-      fijo en la posición indicada */
+     /*background-image: url('../assets/banner-aa-02.png');
+     background-repeat: no-repeat;
+     background-size: center;*/
+     
+     display: grid;
+     grid-template-rows: 1fr 180px;
+     grid-template-columns: 1fr;
+     width: 100%;
+     /* fijamos la el position sticky y con top 0 para dejar todo el header y navbar
+       fijo en la posición indicada */
+  }
+ 
+   .logo-aa-principal {
+     padding: 0px;
+   }
+   
+   .barra-navegacion {
+     background-color: #ffc857;
+     padding: 0.1rem;
+   }
+ 
+   .barra-navegacion li {
+     /*display: inline;*/
+     list-style: none;
+     padding: 0.25rem;
+ 
+   }
+ 
+   .barra-navegacion li a {
+     color: black;
+     text-decoration: none;
+   }
+ 
+   /* DEFINICIÓN DE ESTILOS PARA LA SECCIÓN MAIN */
+ 
+   .principal {
+     background-color: rgba(189, 217, 223, 0.6);
+   }
+ 
+   /* establece estilo de la sección principal de bienvenida */
+ 
+   .principal-presentacion-titulo {
+     font-weight: 600;
+     font-size: xx-large;
+     width: 100%;
+     text-align: center;
+   }
+ 
+   .presentacion-video {
+     position: relative;
+     width: 100%;
+     overflow: hidden;
+     padding-top: 56.25%;
+   }
+ 
+   .video-responsive {
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     width: 100%;
+     height: 100%;
+     border: none;
+   }
+ 
+   .presentacion-texto {
+     padding: 10px;
+     margin: 10px;
+   }
+ 
+   /* establece los estilos de las secciones de cards con los imperdibles */
+   .principal-card {
+     display: flex;
+     flex-wrap: wrap;
+   }
+ 
+   .principal-card-titulo {
+     font-weight: 600;
+     width: 100%;
+     padding: 10px;
+     text-align: center;
+   }
+ 
+   .articulo-card-nombre-curso {
+     font-size: large;
+   }
+ 
+   .articulo-card {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 0.4fr 1fr 1fr;
+     width: 400px;
+     height: 600px;
+     margin: 10px;
+     padding: 20px;
+     border: 1px solid black;
+     border-radius: 2%;
+   }    
+ 
+   /* DEFINICIÓN DE ESTILOS PARA LA SECCIÓN FOOTER */ 
+ 
+   .pie-pagina {
+     display: grid;
+     background-color: #ffc857;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     align-items: center;
+     justify-items: center;
+   }
+ 
+   .barra-footer-logos {
+     display: grid;
+     grid-template-columns: repeat(3, 50px);
+     grid-template-rows: 50px;
+     align-items: start;
+     justify-self: auto;
+   }
+ 
+   .barra-footer-contacto {
+     display: grid;
+     grid-template-columns: auto auto;
+     align-items: center;
+   }
+ 
+   .footer-texto {
+     margin: 5px;
+     padding: 5px;
+     font-style: italic;
+   }
+ 
  }
-
-  .logo-aa-principal {
-    padding: 0px;
-  }
-  
-  .barra-navegacion {
-    background-color: #ffc857;
-    padding: 0.1rem;
-  }
-
-  .barra-navegacion li {
-    /*display: inline;*/
-    list-style: none;
-    padding: 0.25rem;
-    height: 100%;
-  }
-
-  .barra-navegacion li a {
-    color: black;
-    text-decoration: none;
-  }
-
-  /* DEFINICIÓN DE ESTILOS PARA LA SECCIÓN MAIN */
-
-  .principal {
-    background-color: rgba(189, 217, 223, 0.6);
-  }
-
-  /* establece estilo de la sección principal de bienvenida */
-
-  .principal-presentacion-titulo {
-    font-weight: 600;
-    font-size: xx-large;
-    width: 100%;
-    text-align: center;
-  }
-
-  .presentacion-video {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 56.25%;
-  }
-
-  .video-responsive {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
-
-  .presentacion-texto {
-    padding: 10px;
-    margin: 10px;
-  }
-
-  /* establece los estilos de las secciones de cards con los imperdibles */
-  .principal-card {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .principal-card-titulo {
-    font-weight: 600;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .articulo-card-nombre-curso {
-    font-size: large;
-  }
-
-  .articulo-card {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 1fr 1fr;
-    width: 400px;
-    height: 600px;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid black;
-    border-radius: 2%;
-  }    
-
-  /* DEFINICIÓN DE ESTILOS PARA LA SECCIÓN FOOTER */ 
-
-  .pie-pagina {
-    display: grid;
-    background-color: #ffc857;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-  }
-
-  .barra-footer-logos {
-    display: grid;
-    grid-template-columns: repeat(3, 50px);
-    grid-template-rows: 50px;
-    align-items: start;
-    justify-self: auto;
-  }
-
-  .barra-footer-contacto {
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-  }
-
-  .footer-texto {
-    margin: 5px;
-    padding: 5px;
-    font-style: italic;
-  }
-
-}
-
-/* DEFINCIONES PARA PANTALLAS TIPO TABLET */
-
-
-
+ 
+ 
+ /* DEFINCIONES PARA PANTALLAS TIPO TABLET */
+ 
 
 
 /* DEFINICIONES PARA PANTALLAS GENERALES */

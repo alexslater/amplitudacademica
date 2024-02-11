@@ -9,17 +9,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
    
-    <!-- Codigo de llamada a bootstrap -->
+    <!-- Link para CSS del framework Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
     <!-- Vinculo a la hoja de estilos CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <title>Amplitud Académica</title>
 </head>
 
 <body>
+    <!-- Incluir el script JS de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
     <header class="cabecera">
-        <section class="menu-navegacion grid-container">    
-            <img class="logo-aa-principal grid-item" src="./assets/logo-aa-01.png" alt="logo">
-            <nav class="barra-navegacion grid-item">
+        <section class="container menu-navegacion">    
+            <img class="row logo-aa-principal grid-item" src="./assets/logo-aa-01.png" alt="logo">
+            <nav class="row barra-navegacion grid-item">
                 <ul>
                     <li><a class="enlace-indice" href="index.html">Inicio</a></li>
                     <li><a class="enlace-cursos" href="./pages/cursos.html">Cursos</a></li>
@@ -32,36 +37,35 @@
     </header>
 
 
-    <main class="principal">
+    <main class="container principal">
         <!-- Sección 1 que tiene la presentación de la página-->
-        <section class="principal-presentacion">
-            <h1 class="principal-presentacion-titulo">Bienvenido a amplitud académica</h1>
-            <article class="presentacion-video">
+        <section class="container principal-presentacion">
+            <h1 class="row principal-presentacion-titulo">Bienvenido a amplitud académica</h1>
+            <article class="row presentacion-video">
                 <iframe class="video-responsive" src="https://www.youtube.com/embed/CJORIYLH8Q0?si=f0QSL81SLurvG3yk" 
                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 allowfullscreen></iframe>
             </article>
-            <article class="presentacion-texto">
+            <article class="row presentacion-texto">
                 <p>Bienvenido/a a Amplitud Académica, un portal de acceso para tus asignaturas electivas y de  certificación. En este portal podrás descubrir todo acerca de tu sistema de cursos electivos, armar tus rutas de interés y conocer las diferentes opciones de certificación de competencias.</p>
                 <p>La misión de explorar es tuya!</p>
             </article>
-            
         </section>
         
         <!-- Sección 2 que tiene los destacados de la página principal -->
-        <section class="principal-card">
-            <h2 class="principal-card-titulo">Destacados e imperdibles!</h2>
-            <article class="articulo-card">
+        <section class="container principal-card">
+            <h2 class="row principal-card-titulo">Destacados e imperdibles!</h2>
+            <article class="row articulo-card">
                 <h3 class="articulo-card-nombre-curso">Satélite UM-Sat</h3>
                 <img class="" src="./assets/satelite-orbita-planeta-tierra-al-fondo.jpg" alt="destacado">
                 <p>Volando alto!. Los estudiantes del proyecto de nanosatélite UMSat realizaron pruebas de comunicación en el centro de operaciones espaciales de la Fuerza Aérea de Chile. En su visita pudieron aprender además de otros protocolos de comunicaciñon y procesamiento de imágenes recibidas desde el espacio.</p>
             </article>
-            <article class="articulo-card">
+            <article class="row articulo-card">
                 <h3 class="articulo-card-nombre-curso">La inteligencia artificial al servicio de la salud</h3>
                 <img class="" src="./assets/persona-que-usa-herramienta-ai-trabajo.jpg" alt="destacado">
                 <p>Los estudiantes del curso de indagación Inteligencia Artificial Aplicada a la Salud participaron de una conferencia internacional sobre nuevos métodos diagnósticos basados en IA. En ella pudieron conocer sobre los avances más recientes en diagnóstico por imágenes y detección temprana del cáncer.</p>
             </article>
-            <article class="articulo-card">
+            <article class="row articulo-card">
                 <h3 class="articulo-card-nombre-curso">Nuestras raíces</h3>
                 <img class="" src="./assets/agricultura-mujeres-tribales.jpg" alt="destacado">
                 <p>El curso de cultura Raíces de Nuestra Tierra, realizó un encuentro con líderes de comunidades Mapuche en Temuco para conocer más sobre sus tradiciones. Los estudiantes del área de salud pudieron conocer más acerca de la cosmovisión en temas relacionados a salud y los tipos de práctica que se traspasan de generación en generación.</p>
@@ -70,7 +74,7 @@
 
    
     </main>
-    <footer class="pie-pagina">
+    <footer class="container pie-pagina">
         <div class="barra-footer-contacto">
             <p>Contacto:</p>
             <a href="mailto:contacto@amplitudacademica.cl">contacto@amplitudacademica.cl</a>
