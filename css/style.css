@@ -371,7 +371,7 @@ img {
 
   .imagen-presentacion {
     height: 50%;
-    weight: 50%;
+    width: 50%;
   }
   /* DEFINICIÓN DE ESTILOS PARA LA SECCIÓN FOOTER */ 
 
@@ -410,4 +410,5 @@ img {
     color: black;
     text-decoration: none;
   }
+
 }
