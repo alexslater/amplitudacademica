@@ -1,0 +1,157 @@
+@media screen and (max-width: 767px) {
+  
+    .menu-navegacion {
+       display: grid;
+       grid-template-rows: 1fr auto;
+       grid-template-columns: 1fr;
+       justify-content: center;
+       width: 100%;
+    }
+   
+     .logo-aa-principal {
+       padding: 0px;
+       width: 50%;
+       height: 100%;
+     }
+     
+     .logo-grid {
+        justify-content: center;
+        padding: 1.5rem;
+     }
+
+     .barra-navegacion {
+       background-color: $amarillo-aa;
+        li {
+            list-style: none;
+            padding: 0.25rem;
+            a {
+                color: $fondo-aa;
+                text-decoration: none;
+            }
+        }
+     }
+   
+  
+     /* DEFINICIÓN DE ESTILOS PARA LA SECCIÓN MAIN */
+   
+     .principal {
+       background-color: $fondo-aa-main;
+     }
+  
+     .carousel-presentacion {
+      display: flex;
+      justify-content: center;
+     }
+   
+     /* establece estilo de la sección principal de bienvenida */
+   
+     .principal-presentacion-titulo {
+       font-weight: 600;
+       font-size: xx-large;
+       width: 100%;
+       text-align: center;
+     }
+   
+     .presentacion-video {
+       position: relative;
+       width: 100%;
+       overflow: hidden;
+       padding-top: 56.25%;
+       animation-name: fadein;
+       animation-duration: 3s;       
+     }
+   
+     .video-responsive {
+       position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       width: 100%;
+       height: 100%;
+       border: none;
+
+     }
+   
+     .presentacion-texto {
+       padding: 10px;
+       margin: 10px;
+     }
+   
+     /* establece los estilos de las secciones de cards con los imperdibles */
+     .principal-card {
+       display: flex;
+       flex-wrap: wrap;
+     }
+   
+     .principal-card-titulo {
+       font-weight: 600;
+       width: 100%;
+       padding: 10px;
+       text-align: center;
+     }
+   
+     .articulo-card-nombre-curso {
+       font-size: large;
+       font-weight: 800;
+     }
+   
+     .articulo-card {
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-template-rows: 0.4fr 1fr 1fr;
+       width: 400px;
+       height: 600px;
+       margin: 10px;
+       padding: 20px;
+       border: 1px solid $fondo-aa;
+       border-radius: 2%;
+     }
+  
+     .curso-texto {
+      font-size: small;
+     }
+   
+     /* DEFINICIÓN DE ESTILOS PARA LA SECCIÓN FOOTER */ 
+   
+     .pie-pagina {
+       display: grid;
+       background-color: $amarillo-aa;
+       grid-template-columns: 1fr;
+       grid-template-rows: 1fr 1fr 1fr;
+       align-items: center;
+       justify-items: center;
+     }
+   
+     .barra-footer-logos {
+       display: grid;
+       grid-template-columns: repeat(3, 50px);
+       grid-template-rows: 50px;
+       align-items: start;
+       justify-self: auto;
+     }
+   
+     .barra-footer-contacto {
+       display: grid;
+       grid-template-columns: auto auto;
+       align-items: center;
+       font-size: small;
+     }
+   
+     .footer-texto {
+       margin: 5px;
+       padding: 5px;
+       font-style: italic;
+       font-size: small;
+     }
+  
+     .link-correo {
+      color: $fondo-aa;
+      text-decoration: none;
+    }
+  
+    .img-footer {
+      width: 100%;
+      height: 100%;
+    }
+  }
