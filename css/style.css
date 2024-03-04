@@ -1,5 +1,14 @@
 @charset "UTF-8";
 /* Archivo SCSS del proyecto AmplitudAcademica */
+/* Definición de animaciones */
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* DEFINICIÓN DE ESTILOS GENERALES */
 * {
   font-family: "Lato", sans-serif;
@@ -241,6 +250,8 @@ body {
     width: 100%;
     overflow: hidden;
     padding-top: 56.25%;
+    animation-name: fadein;
+    animation-duration: 3s;
   }
   .video-responsive {
     position: absolute;
@@ -280,6 +291,13 @@ body {
     padding: 20px;
     border: 1px solid rgb(32, 31, 31);
     border-radius: 2%;
+  }
+  .card {
+    width: 18rem;
+    transition: width 1s;
+  }
+  .card:hover {
+    width: 36rem;
   }
   .imagen-presentacion {
     height: 50%;
