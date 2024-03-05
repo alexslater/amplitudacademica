@@ -1,0 +1,33 @@
+/* DEFINICIÓN DE ESTILOS GENERALES */
+
+*{
+    font-family: 'Lato', sans-serif;
+ 
+ }
+ 
+ header {
+   background-color: white;
+ }
+ 
+ body {
+   margin: 10px;
+ }
+
+h1 {
+  animation: fadein;
+  animation-duration: 2s;
+}
+
+.btn-secondary {
+  background-color: $fondo-aa;
+}
+  /*esto esta bueno para automatizarlo con each */
+$tipos-enlaces: indice, cursos, aprendizaje, vip, certificaciones;
+
+@each $tipo-enlace in $tipos-enlaces {
+    .enlace-#{$tipo-enlace} 
+    {
+        background-color: $fondo-aa;
+        color:$amarillo-aa;
+    }
+}
