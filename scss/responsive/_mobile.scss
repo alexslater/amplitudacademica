@@ -10,8 +10,7 @@
    
      .logo-aa-principal {
        padding: 0px;
-       width: 50%;
-       height: 100%;
+       @include sizes(50%, 100%);
      }
      
      .logo-grid {
@@ -67,15 +66,13 @@
        left: 0;
        bottom: 0;
        right: 0;
-       width: 100%;
-       height: 100%;
+       @include sizes(100%, 100%);
        border: none;
 
      }
    
      .presentacion-texto {
-       padding: 10px;
-       margin: 10px;
+       @include mp(10px, 10px);
      }
    
      /* establece los estilos de las secciones de cards con los imperdibles */
@@ -100,10 +97,8 @@
        display: grid;
        grid-template-columns: 1fr;
        grid-template-rows: 0.4fr 1fr 1fr;
-       width: 400px;
-       height: 600px;
-       margin: 10px;
-       padding: 20px;
+       @include sizes(400px, 600px);
+       @include mp(10px, 20px);
        border: 1px solid $fondo-aa;
        border-radius: 2%;
      }
@@ -139,8 +134,7 @@
      }
    
      .footer-texto {
-       margin: 5px;
-       padding: 5px;
+       @include mp(5px, 5px);
        font-style: italic;
        font-size: small;
      }
@@ -151,7 +145,6 @@
     }
   
     .img-footer {
-      width: 100%;
-      height: 100%;
+      @include sizes(100%, 100%);
     }
   }
