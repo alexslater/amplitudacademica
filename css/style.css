@@ -120,8 +120,8 @@ h1 {
     border: none;
   }
   .presentacion-texto {
-    padding: 10px;
     margin: 10px;
+    padding: 10px;
   }
   /* establece los estilos de las secciones de cards con los imperdibles */
   .principal-card {
@@ -228,8 +228,8 @@ h1 {
   }
   .logo-grid {
     padding: 1rem;
-    height: 100%;
     width: 100%;
+    height: 100%;
   }
   .barra-navegacion {
     background-color: #ffc857;
@@ -276,8 +276,8 @@ h1 {
     border: none;
   }
   .presentacion-texto {
-    padding: 10px;
     margin: 10px;
+    padding: 10px;
   }
   /* establece los estilos de las secciones de cards con los imperdibles */
   .principal-card {
@@ -312,8 +312,8 @@ h1 {
     width: 36rem;
   }
   .imagen-presentacion {
-    height: 50%;
     width: 50%;
+    height: 50%;
   }
   .img-star-rating {
     width: 50%;

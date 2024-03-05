@@ -31,3 +31,13 @@ $tipos-enlaces: indice, cursos, aprendizaje, vip, certificaciones;
         color:$amarillo-aa;
     }
 }
+
+@mixin sizes($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+@mixin mp($m, $p){
+  margin: $m;
+  padding: $p;
+}
